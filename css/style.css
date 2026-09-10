@@ -815,6 +815,7 @@ ul {
 .footer-brand {
   grid-column: 1 / -1;
   justify-self: center;
+  transform: translateX(48px);
 }
 
 .footer-brand img {
