@@ -743,15 +743,15 @@ ul {
 
 .access-layout {
   display: grid;
-  grid-template-columns: 600px 1fr;
-  gap: 213px;
+  grid-template-columns: 660px 1fr;
+  gap: 153px;
   align-items: center;
   width: 1280px;
 }
 
 .access-map {
   overflow: hidden;
-  width: 600px;
+  width: 660px;
   height: 448px;
   box-shadow: var(--shadow);
 }
