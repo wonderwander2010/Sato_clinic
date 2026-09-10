@@ -193,7 +193,7 @@ ul {
   height: 32px;
   padding: 0 6px;
   color: #52615d;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -289,7 +289,7 @@ ul {
   border-collapse: collapse;
   table-layout: fixed;
   color: #4a5a56;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .hours-table th,
@@ -305,6 +305,7 @@ ul {
   color: var(--green);
   background: #dff1ec;
   font-weight: 700;
+  font-size: 16px;
 }
 
 .hours-table th:first-child {
@@ -321,7 +322,7 @@ ul {
 .hours-notes {
   padding: 24px 30px 24px;
   color: #66736f;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.75;
 }
 
@@ -375,16 +376,17 @@ ul {
   align-items: center;
   min-height: 48px;
   padding: 0 18px 0 28px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .news-list time {
   color: #8a9793;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .news-list span {
   color: #374641;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -465,7 +467,7 @@ ul {
 }
 
 .greeting-copy {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.9;
 }
 
@@ -508,6 +510,7 @@ ul {
 }
 
 .services .section-lead {
+  font-size: 16px;
   margin-bottom: 42px;
 }
 
@@ -539,14 +542,14 @@ ul {
 .service-card h3 {
   margin-bottom: 22px;
   color: var(--green-dark);
-  font-size: 17px;
+  font-size: 18px;
   text-align: center;
 }
 
 .service-card p {
   margin-bottom: 0;
   padding: 0 8px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.85;
 }
 
@@ -606,7 +609,7 @@ ul {
 
 .about__copy p {
   margin-bottom: 24px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.9;
 }
 
@@ -635,6 +638,7 @@ ul {
 }
 
 .staff .section-lead {
+  font-size: 16px;
   margin-bottom: 28px;
 }
 
@@ -672,7 +676,7 @@ ul {
 .staff-card__specialty {
   margin-bottom: 24px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -712,7 +716,7 @@ ul {
   width: 100%;
   min-width: 0;
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   text-align: justify;
   text-justify: inter-character;
@@ -730,13 +734,13 @@ ul {
   display: block;
   margin-bottom: 16px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .staff-card__career p {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
 }
 
@@ -780,7 +784,7 @@ ul {
 
 .access-details {
   margin-bottom: 28px;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700;
   line-height: 1.9;
 }
@@ -791,7 +795,7 @@ ul {
 
 .access-note {
   margin-bottom: 0;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.8;
 }
 
@@ -828,12 +832,12 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
 }
 
 .footer-info {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.8;
 }
 
@@ -846,7 +850,7 @@ ul {
   min-height: 40px;
   margin-top: 8px;
   padding: 7px 16px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .copyright {
@@ -854,6 +858,6 @@ ul {
   padding: 26px 0;
   color: #9aa7a3;
   background: var(--white);
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
 }
