@@ -491,7 +491,7 @@ ul {
 
 .image-heading--services {
   width: 244px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .image-heading--services img {
@@ -505,6 +505,10 @@ ul {
   font-size: 14px;
   line-height: 1.85;
   text-align: center;
+}
+
+.services .section-lead {
+  margin-bottom: 42px;
 }
 
 .service-grid {
