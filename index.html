@@ -40,7 +40,11 @@
 
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
-      <img class="hero__photo" src="img/patient_7.jpg" alt="患者様に寄り添う医療スタッフ">
+      <div class="hero-slides" aria-hidden="true">
+        <img class="hero-slide is-active" src="img/patient_7.jpg" alt="">
+        <img class="hero-slide" src="img/hero_01.png" alt="">
+        <img class="hero-slide" src="img/hero_02.png" alt="">
+      </div>
       <div class="hero__inner container">
         <h1 id="hero-title" class="hero__title">地域に根ざした医療</h1>
       </div>
@@ -264,5 +268,6 @@
     </div>
     <p class="copyright">© Sato Clinic</p>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
