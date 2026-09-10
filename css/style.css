@@ -1,7 +1,8 @@
 :root {
-  --green: #087664;
-  --green-dark: #075e50;
-  --green-bright: #159d84;
+  --color-primary: #2e8b7f;
+  --green: var(--color-primary);
+  --green-dark: var(--color-primary);
+  --green-bright: var(--color-primary);
   --page-bg: #f8faf9;
   --mint: #eaf4f1;
   --mint-card: #e3f4ef;
@@ -93,6 +94,12 @@ ul {
   width: 340px;
 }
 
+.site-logo img {
+  width: 340px;
+  height: 102px;
+  object-fit: cover;
+}
+
 .header-actions {
   display: flex;
   align-items: center;
@@ -138,7 +145,7 @@ ul {
 .header-button--english {
   min-width: 210px;
   justify-content: space-between;
-  background: #4a9d87;
+  background: var(--color-primary);
   font-size: 14px;
 }
 
@@ -346,6 +353,11 @@ ul {
   margin-bottom: 8px;
 }
 
+.image-heading--news img {
+  height: 74.67px;
+  object-fit: contain;
+}
+
 .news-list {
   padding: 0;
   margin-bottom: 8px;
@@ -426,6 +438,11 @@ ul {
   margin-bottom: 16px;
 }
 
+.image-heading--greeting img {
+  height: 82.67px;
+  object-fit: contain;
+}
+
 .greeting-layout {
   display: grid;
   grid-template-columns: 425px 1fr;
@@ -475,6 +492,11 @@ ul {
 .image-heading--services {
   width: 244px;
   margin-bottom: 24px;
+}
+
+.image-heading--services img {
+  height: 137.33px;
+  object-fit: contain;
 }
 
 .section-lead {
@@ -569,8 +591,13 @@ ul {
 }
 
 .image-heading--about {
-  width: 270px;
+  width: 310px;
   margin: 0 0 34px;
+}
+
+.image-heading--about img {
+  height: auto;
+  object-fit: contain;
 }
 
 .about__copy p {
@@ -589,8 +616,17 @@ ul {
 }
 
 .image-heading--staff {
-  width: 276px;
+  display: flex;
+  width: 310px;
+  height: 92px;
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-heading--staff img {
+  height: auto;
+  object-fit: contain;
 }
 
 .staff .section-lead {
@@ -610,7 +646,7 @@ ul {
 
 .staff-card {
   overflow: hidden;
-  min-height: 475px;
+  min-height: 473px;
   padding: 20px 30px 0;
   background: var(--mint-card);
   border: 1px solid #c8ded8;
@@ -619,16 +655,19 @@ ul {
 }
 
 .staff-card h3 {
-  margin-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 9px;
   color: var(--green-dark);
   font-size: 18px;
   text-align: center;
 }
 
 .staff-card__specialty {
-  margin-bottom: 15px;
-  color: #65736f;
-  font-size: 12px;
+  margin-bottom: 24px;
+  color: var(--muted);
+  font-size: 14px;
   text-align: center;
 }
 
@@ -637,7 +676,7 @@ ul {
   grid-template-columns: 244px 1fr;
   gap: 20px;
   align-items: center;
-  margin-bottom: 18px;
+  margin-bottom: 31px;
 }
 
 .staff-card__main img {
@@ -649,6 +688,7 @@ ul {
 
 .staff-card:first-child .staff-card__main img {
   object-position: 68% center;
+  transform: scale(1.08);
 }
 
 .staff-card:nth-child(2) .staff-card__main img {
@@ -664,14 +704,18 @@ ul {
 }
 
 .staff-card__main p {
+  width: 100%;
+  min-width: 0;
   margin-bottom: 0;
   font-size: 15px;
   line-height: 1.8;
+  text-align: justify;
+  text-justify: inter-character;
 }
 
 .staff-card__career {
   margin: 0 -30px;
-  padding: 11px 28px 14px;
+  padding: 22px 28px 14px;
   background: transparent;
   border-top: 1px dashed #91aaa4;
   text-align: center;
@@ -679,14 +723,15 @@ ul {
 
 .staff-card__career b {
   display: block;
-  margin-bottom: 3px;
-  color: var(--green-dark);
-  font-size: 13px;
+  margin-bottom: 16px;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .staff-card__career p {
   margin-bottom: 0;
-  font-size: 13px;
+  color: var(--muted);
+  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -698,15 +743,15 @@ ul {
 
 .access-layout {
   display: grid;
-  grid-template-columns: 568px 1fr;
-  gap: 245px;
+  grid-template-columns: 600px 1fr;
+  gap: 213px;
   align-items: center;
   width: 1280px;
 }
 
 .access-map {
   overflow: hidden;
-  width: 568px;
+  width: 600px;
   height: 448px;
   box-shadow: var(--shadow);
 }
@@ -720,6 +765,12 @@ ul {
 .image-heading--access {
   width: 250px;
   margin: 0 0 72px;
+}
+
+.image-heading--access img {
+  height: 83.33px;
+  object-fit: contain;
+  transform: translateY(-70px);
 }
 
 .access-details {
@@ -763,6 +814,8 @@ ul {
 
 .footer-brand img {
   width: 220px;
+  height: 66px;
+  object-fit: cover;
 }
 
 .footer-nav {
