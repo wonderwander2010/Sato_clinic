@@ -435,12 +435,59 @@ ul {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(21, 87, 74, 0.24);
 }
 
 .button span {
   font-size: 20px;
   font-weight: 400;
   line-height: 1;
+}
+
+.is-reveal {
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.is-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.service-card:nth-child(2),
+.staff-card:nth-child(2) {
+  transition-delay: 150ms;
+}
+
+.service-card:nth-child(3),
+.staff-card:nth-child(3) {
+  transition-delay: 300ms;
+}
+
+.service-card:nth-child(4),
+.staff-card:nth-child(4) {
+  transition-delay: 450ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .is-reveal,
+  .is-reveal.is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .button,
+  .button:hover {
+    transform: none;
+    transition: none;
+  }
 }
 
 .greeting {
