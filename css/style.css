@@ -831,10 +831,11 @@ ul {
   box-shadow: var(--shadow);
 }
 
-.access-map img {
+.access-map iframe {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  display: block;
+  border: 0;
 }
 
 .image-heading--access {
