@@ -208,7 +208,7 @@ ul {
 .hero::after {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(255,255,255,0.76) 0%, rgba(255,255,255,0.08) 35%, rgba(255,255,255,0) 62%);
+  background: linear-gradient(90deg, rgba(255,255,255,0.92) 0%, rgba(255,255,255,0.72) 35%, rgba(255,255,255,0) 72%);
   content: "";
 }
 
